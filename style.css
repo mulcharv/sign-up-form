@@ -1,0 +1,156 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#imageContainer {
+    position:relative
+}
+
+#bannerContainer {
+    position:absolute;
+    background-color: #565656;
+    width: 550px;
+    height: 125px;
+    top: 150px;
+    left: 0;
+    opacity: 0.8;
+}
+
+#bannerText {
+    position: absolute;
+    font-family: Rampart One;
+    font-size: 50px;
+    top: 22.5px;
+    left: 125px;
+    color:aqua;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#leftSideContainer {
+    flex: 0.3;
+}
+
+#rightSideContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFFDD0;
+    font-family: Amiri;
+}
+
+#imageContainer > img {
+    max-width: 550px;
+   height: 950px;
+}
+
+#bannerLogo > img {
+    width: 50px;
+    height: 50px;
+}
+
+#bannerLogo {
+    position: absolute;
+    top: 35px;
+    left: 75px;
+}
+
+#firstThird {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#secondThird {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FFFFED;
+}
+
+#thirdThird {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#firstTextContainer {
+    margin-right: 180px;
+}
+
+#secondTextContainer {
+    margin-top: 35px;
+}
+
+#headingContainer {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#formInputs {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 175px;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+#formInputs .formChild {
+    flex: 1 0 40%;
+    position: relative;
+}
+
+.formChild > label {
+    position: absolute;
+    top: -22px;
+    font-weight: 600;
+}
+
+.formChild > input {
+    width: 250px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid rgb(0, 153, 255);
+}
+
+
+
+#thirdThird button {
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border-radius: 5px;
+    border-width: thin;
+    border-style: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#thirdThird button:hover {
+opacity: 1;
+}
+
+#thirdThird button:active {
+    color: black;
+}
+
+#logInPrompt {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#thirdThird a:link {
+    text-decoration: none;
+}
